@@ -1,11 +1,11 @@
 body {
-    background-color: #eb0d0d;
-    color:   #24a9f1;
+    background-color: #9c4b4b9f;
+    color:   #063b58;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3 {
-    color: #58a6ff;
+    color: #063b58;
 }
 
 
@@ -60,7 +60,7 @@ table {
 
 
 form {
-    background-color: #161b22;
+    background-color: #e4e9ef;
     padding: 20px;
     border-radius: 10px;
 }
