@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuegos - Galería</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Videojuegos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="juegos.html">Juegos</a></li>
+                <li class="nav-item"><a class="nav-link active" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTENIDO -->
+<div class="container mt-4">
+
+    <h1 class="text-center mb-4">Galería de Videojuegos</h1>
+    <p class="text-center mb-4">
+        Imágenes de algunos de los videojuegos más populares.
+    </p>
+
+    <!-- CARRUSEL -->
+    <div id="carouselGaleria" class="carousel slide mb-5 carrusel-pequeno" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/odyssey.jpg" class="d-block w-100" alt="Videojuego 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/sonic.jpg" class="d-block w-100" alt="Videojuego 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/kirby.jpg" class="d-block w-100" alt="Videojuego 3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- IMÁGENES CON ANIMACIÓN -->
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <img src="img/amongus.jpg" class="img-fluid rounded efecto-img" alt="Juego 1">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img/poppyplaytime.jpg" class="img-fluid rounded efecto-img" alt="Juego 2">
+        </div>
+        <div class="col-md-4 mb-4">
+            <img src="img/fnaf.jpg" class="img-fluid rounded efecto-img" alt="Juego 3">
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <a href="index.html" class="text-white text-decoration-none">Volver al inicio</a>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

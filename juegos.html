@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuegos - Juegos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Videojuegos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link active" href="juegos.html">Juegos</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- CONTENIDO -->
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Listado de Videojuegos</h1>
+    <p class="text-center mb-4">
+        Algunos de los videojuegos más populares de los últimos años.
+    </p>
+
+    <!-- TABLA STRIPED -->
+    <div class="table-responsive">
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Plataforma</th>
+                    <th>Género</th>
+                    <th>Año</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Legend of Zelda: Breath of the Wild</td>
+                    <td>Nintendo Switch</td>
+                    <td>Aventura</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>God of War</td>
+                    <td>PlayStation</td>
+                    <td>Acción</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Red Dead Redemption 2</td>
+                    <td>PC / Consolas</td>
+                    <td>Acción</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Minecraft</td>
+                    <td>Multiplataforma</td>
+                    <td>Sandbox</td>
+                    <td>2011</td>
+                </tr>
+                <tr>
+                    <td>Fortnite</td>
+                    <td>Multiplataforma</td>
+                    <td>Battle Royale</td>
+                    <td>2017</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    <a href="index.html" class="text-white text-decoration-none">Volver al inicio</a>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
